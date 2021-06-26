@@ -4,7 +4,7 @@
     font-family: Roboto,sans-serif;
 }
 h1{
-    font-size:4.5rem;
+    font-size:3.5rem;
 }
 h3{
     font-size:2.8rem;
@@ -27,11 +27,13 @@ img:hover{
 }
 @keyframes float {
     50%{
-        padding-bottom:25px;
+        bottom:24px; 
     }
 }
 #home img{
-    animation: float 4s linear infinite;
+    position: relative;
+    bottom:0;
+    animation: float 4s infinite;
 }
 #cards{
     background-color: #0C6FF9;
@@ -46,7 +48,7 @@ img:hover{
     color:white;
 }
 .flex{
-    padding:8.5%;
+    margin:8.5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
