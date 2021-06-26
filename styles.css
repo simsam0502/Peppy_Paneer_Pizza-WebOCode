@@ -1,4 +1,58 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Roboto,sans-serif;
+}
+h1{
+    font-size:4.5rem;
+}
+h3{
+    font-size:2.8rem;
+}
+p{
+    font-size:1.2rem;
+}
+img{
+    height:320px;
+    width:320px;
+}
+img:hover{
+    height:325px;
+    width:325px;
+}
+#home{
+    background-color: #FF7E1D;
+    color:black;
+    
+}
+@keyframes float {
+    50%{
+        padding-bottom:25px;
+    }
+}
+#home img{
+    animation: float 4s linear infinite;
+}
+#cards{
+    background-color: #0C6FF9;
+    color:white;
+}
+#aboutus{
+    background-color: #FFCE00;
+    color:black;
+}
+#contact{
+    background-color: #413D45;
+    color:white;
+}
+.flex{
+    padding:8.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    display:inline-block;
+    width:450px;
 }
