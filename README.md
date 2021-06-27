@@ -1,8 +1,10 @@
 # Peppy_Paneer_Pizza-WebOCode
 
-#### Features
-- Single-Page 
-- 
+#### Features and Functionality
+- Single-Page
+- Sliding Sections
+- Animations
+- Responsive
 ## Tech Stack
 
 1. HTML

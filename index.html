@@ -8,12 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="fullpage.css">
-    <link rel="stylesheet" href="cstyle.css">
-    <link rel="stylesheet" href="navcss.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/cstyle.css">
+    <link rel="stylesheet" href="css/navcss.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="cscript.js"></script>
+    <script src="js/cscript.js"></script>
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -39,20 +39,20 @@
         </nav>
       </header>
     <div id="fullpage">
-        <div class="section" id="home">
+        <div class="section" id="home" data-anchor="main">
             <div class="flex">
                 <div class="text">
-                    <h1>
+                    <h1 class="animate__animated animate__fadeInDown">
                         Lorem ipsum dolor sit amet
                     </h1>
                     <p class="animate__animated animate__fadeInUpBig">
                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius porro fugiat enim reiciendis nisi sunt eos, libero non facere.  
                     </p>
                 </div>
-                <img src="home.svg" alt="" class="animate__animated animate__fadeIn animate__delay-2s">
+                <img src="svgs/home.svg" alt="" class="animate__animated animate__fadeIn animate__delay-2s">
             </div>
         </div>
-        <div class="section" id="cards">
+        <div class="section" id="cards" data-anchor="card">
             <div class="slide"> 
                <!---<div class="car">
                     <div class="button" style="margin-top:5vh;border-radius: 50px;">
@@ -68,7 +68,7 @@
                     </h3>
                     <p>Lorem, ipsum dolor.</p>
                 </div>
-                <img src="yoga.svg">
+                <img src="svgs/yoga.svg">
                 </div>
                     
                 </div>
@@ -84,7 +84,7 @@
                     </h3>
                     <p>Lorem, ipsum dolor.</p>
                 </div>
-                <img src="medicine.svg">
+                <img src="svgs/medicine.svg">
                 </div>
                     
                 </div>
@@ -99,7 +99,7 @@
                     </h3>
                     <p>Lorem, ipsum dolor.</p>
                 </div>
-                <img src="pilates.svg">
+                <img src="svgs/pilates.svg">
                 </div>
                     
                 </div>   
@@ -115,7 +115,7 @@
                     </h3>
                     <p>Lorem, ipsum dolor.</p>
                 </div>
-                <img src="medicine.svg">
+                <img src="svgs/medicine.svg">
                 </div>
                     
                 </div>
@@ -123,9 +123,9 @@
         
 
         
-        <div class="section" id="aboutus">
+        <div class="section" id="aboutus" data-anchor="about">
             <div class="flex">
-                <img src="aboutus.svg" alt="" class="animate__animated animate__fadeIn">
+                <img src="svgs/aboutus.svg" alt="" class="animate__animated animate__fadeIn">
                 <div class="text">
                 <h3 class="animate__animated animate__slideInRight">
                     About Us
@@ -137,7 +137,7 @@
             </div>
             </div>
         </div>
-        <div class="section" id="contact">
+        <div class="section" id="contact" data-anchor="contactus">
 <!--             <div class="flex">
                 <h3>
                     Contact
@@ -175,13 +175,15 @@
             </div>
         </div> 
     </div>   
-    <script src="fullpage.js"></script>
-    <script src="animate.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/animate.js"></script>
     <script>
         new fullpage('#fullpage', {
             //options here
             autoScrolling:true,
-            scrollHorizontally: true
+            scrollHorizontally: true,
+            anchors:['main', 'card', 'about','contactus'],
+            navigation:true
         });
     </script> 
 </body>
