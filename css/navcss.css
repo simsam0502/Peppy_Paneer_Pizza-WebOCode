@@ -115,7 +115,11 @@
 }
 
 /* 48em = 768px */
-
+@media (max-width: 450px) {
+  .header{
+    background-color: rgb(41, 35, 35);
+  }
+}
 @media (min-width: 48em) {
   .header li {
     float: left;
