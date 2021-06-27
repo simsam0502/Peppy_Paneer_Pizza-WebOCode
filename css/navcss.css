@@ -5,7 +5,7 @@
   position: fixed;
   width: 100%;
   z-index: 3;
-  background-color: rgba(0, 0, 0, 0.2); 
+  /* background-color: rgba(0, 0, 0, 0.2);  */
 }
 
 .header ul {
@@ -13,8 +13,8 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
-  background-color: rgba(0, 0, 0, 0.2); 
+  /* background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);  */
 }
 
 .header li a {
@@ -27,7 +27,8 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  color:#ada6a6;
 }
 
 .header .logo {
