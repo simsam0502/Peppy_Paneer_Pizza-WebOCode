@@ -40,6 +40,15 @@
   color: #fff;
 }
 
+
+.logo img{
+  /* height: auto;
+  width: auto; */
+  /* display: inline; */
+  height: 52px;
+  width: 75px;
+}
+
 /* menu */
 
 .header .menu {
