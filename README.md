@@ -35,7 +35,7 @@ Every member of the team learnt so many new things including resolving conflicts
 ## Justification of Theme
 
 In today's era when people crave for western health treatments and equpiments, our ancient and efficacious treatment methods and excercise forms have started to loose their significance.
-In order to remind people of their rich cultural aspects we bringforth this website MUKTI to rejuvinate the feeling of pride and respect for our traditional methods. In current situation of pandemic, we see people making a traditional drink called 'KADHA' in order to strengthen their immune system.
-The system of medicines is solely based on herbs and herbal compounds cures the patient completely by going to the depth of the illness. They are affordable yet highly effective methods.
-    So here we are with MUKTI to spread awareness and help our traditional practices gain the popularity and respect they deserve. Our website has cards with incluse YOGA, AYURVEDA, SIDDHA etc and important information related to them. The UI and functionality is very easy smooth and we hope to reach many people and fulfill the purpose.
+In order to remind people of their rich cultural aspects we bringforth this website MUKTI to rejuvinate the feeling of pride and respect for our traditional methods. In current situation of pandemic also we see people making a traditional drink called 'KADHA' in order to strengthen their immune system.
+The system of ancient medical practice is solely based on herbs and herbal compounds which cures the patient completely by going to the depth of the illness. They are affordable, yet highly effective methods.
+    So here we are with MUKTI to spread awareness and help our traditional practices gain the popularity and respect they deserve. Our website has cards with include YOGA, AYURVEDA, SIDDHA etc and important information related to them. The UI and functionality is very easy smooth and we hope to reach many people and fulfill the purpose.
 
