@@ -39,13 +39,15 @@
 }
 
 #contactform {
+  width:50%;
   /* background: #f9f9f9; */
   /* padding: 25px;
   margin: 72px 0; */
-  padding: 30px;
-  margin: -65px 405px;
+  /* padding: 30px;
+  margin: -65px 405px; */
   /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
 }
+
 
 #contactform h3 {
   display: block;
@@ -79,13 +81,15 @@ fieldset {
 #contactform input[type="url"],
 #contactform textarea {
   width: 100%;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   /* background: #413d45; */
-  background: #413D45;
-  color: white;
+  border-style:none;
+  background: #212425;
+  color: whitesmoke;
   margin: 0 -10px 5px;
   padding: 10px;
-  border-radius: 17px;
+  border-radius: 10px;
+  
 }
 
 #contactform input[type="text"]:hover,
@@ -93,11 +97,12 @@ fieldset {
 #contactform input[type="tel"]:hover,
 #contactform input[type="url"]:hover,
 #contactform textarea:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
+  /* -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   border: 1px solid #aaa;
-  background: rgb(102, 95, 95);
+  background: rgb(102, 95, 95); */
+  background-color: rgb(29, 26, 26);
 }
 
 #contactform textarea {
@@ -119,7 +124,7 @@ fieldset {
 }
 
 #contactform button[type="submit"]:hover {
-  background: #FFCE00;
+  background: orangered;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
@@ -182,7 +187,7 @@ fieldset {
     padding: 3px;
 }
 .social-container {
-  width: 400px;
+  width:500px;
   margin: 40vh auto;
   text-align: center;
 }
@@ -231,7 +236,7 @@ fieldset {
   color: #00b5f5;
   background: -webkit-linear-gradient(45deg, #00b5f5, #002a8f);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: #e0404e;
+  -webkit-text-fill-color: whitesmoke;
   transition: all 265ms ease-in;
 }
 
@@ -239,6 +244,7 @@ fieldset {
 
 @media only screen and (min-width:700px) and (max-width:995px)
 {
+  
  /* body
  {
   width:100%;
@@ -269,6 +275,9 @@ fieldset {
 }
 @media only screen and (min-width:400px) and (max-width:699px)
 {
+  #contactform{
+    width:80%;
+  }
  /* body
  {
   width:100%;
@@ -297,6 +306,9 @@ fieldset {
 }
 @media only screen and (min-width:100px) and (max-width:399px)
 {
+  #contactform{
+    width:80%;
+  }
  /* body
  {
   width:100%;
