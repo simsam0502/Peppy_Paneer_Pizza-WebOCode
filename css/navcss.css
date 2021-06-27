@@ -5,7 +5,7 @@
   position: fixed;
   width: 100%;
   z-index: 3;
-  /* background-color: rgba(0, 0, 0, 0.2);  */
+  background-color: rgba(0, 0, 0, 0.2); 
 }
 
 .header ul {
@@ -13,8 +13,8 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-  /* background-color: #fff;
-  background-color: rgba(0, 0, 0, 0.2);  */
+  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.2); 
 }
 
 .header li a {
@@ -118,7 +118,6 @@
 @media (min-width: 48em) {
   .header li {
     float: left;
-    background-color: #000;
   }
   .header li a {
     padding: 20px 30px;
