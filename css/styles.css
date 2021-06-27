@@ -133,7 +133,7 @@ img:hover{
         font-style: italic;
       }
       .card5 p:hover{
-        color:rgb(41, 66, 223);
+        color:rgb(70, 95, 255);
          font-weight: 500;
          font-style: italic;
        }
@@ -165,6 +165,7 @@ img:hover{
        position: relative;
        overflow: hidden;
    }
+
    
    .box:hover {
        transform: perspective(500px) rotateY(15deg);
