@@ -15,10 +15,12 @@
 
 ### References and Sources Used
 
-1. [W3Schools]()
+1. [W3Schools](https://w3schools.com/)
 2. [fullpage.js](https://alvarotrigo.com/fullPage/)
-3. [Undraw](https://undraw.co)
+3. [Undraw](https://undraw.co/)
 4. [Animate.css](https://animate.style/)
+5. [Font Awesome](https://fontawesome.com/)
+6. [Wikipedia](https://wikipedia.com)
 
 ## Steps to run the website locally
 
