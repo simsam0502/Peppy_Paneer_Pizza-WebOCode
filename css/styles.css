@@ -91,6 +91,23 @@ img:hover{
     height: 79vh;
 }
 
+.card5{
+    background-image: linear-gradient( 135deg, #1b3862 ,#c4859a, #71d3e9);
+    border-radius: 30px;
+    margin: 80px;
+    height: 79vh;
+}
+
+.card6{
+    background-image: linear-gradient( 135deg, #1b6255 ,#c1c485, #71d3e9);
+    border-radius: 30px;
+    margin: 80px;
+    height: 79vh;
+}
+
+
+
+
 .card1 p:hover{
     color:rgb(128, 245, 251);
      font-weight: 500;
@@ -115,6 +132,16 @@ img:hover{
         font-weight: 500;
         font-style: italic;
       }
+      .card5 p:hover{
+        color:rgb(41, 66, 223);
+         font-weight: 500;
+         font-style: italic;
+       }
+       .card6 p:hover{
+        color:rgb(133, 60, 11);
+         font-weight: 500;
+         font-style: italic;
+       }
       
    
    .box {
