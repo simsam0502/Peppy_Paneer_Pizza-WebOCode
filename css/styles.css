@@ -78,7 +78,7 @@ img:hover{
 }
 
 .card2{
-    background-image: radial-gradient( #ff9625 , #94D0CC);
+    background-image: linear-gradient( 135deg, #ff9625 , #94D0CC);
     border-radius: 30px;
     margin: 80px;
     height: 79vh;
@@ -94,7 +94,7 @@ img:hover{
 .card5{
     background-image: linear-gradient( 135deg, #1b3862 ,#c4859a, #71d3e9);
     border-radius: 30px;
-    margin: 80px;
+    margin: 72px;
     height: 79vh;
 }
 
