@@ -21,12 +21,12 @@
   background: #4caf50;
 } */
 
-.container {
+/* .container {
   max-width: 400px;
   width: 100%;
   margin: 0 auto;
   position: relative;
-}
+} */
 
 #contactform input[type="text"],
 #contactform input[type="email"],
@@ -40,9 +40,11 @@
 
 #contactform {
   /* background: #f9f9f9; */
-  padding: 25px;
-  margin: 72px 0;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  /* padding: 25px;
+  margin: 72px 0; */
+  padding: 30px;
+  margin: -65px 405px;
+  /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
 }
 
 #contactform h3 {
@@ -50,7 +52,8 @@
   font-size: 30px;
   font-weight: bolder;
   margin-bottom: 10px;
-  color: #FFCE00;
+  color: white;
+  text-align: center;
 }
 
 #contactform h4 {
@@ -58,7 +61,8 @@
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: black;
+  color: white;
+  text-align: center;
 }
 
 fieldset {
@@ -133,8 +137,9 @@ fieldset {
 
 .container{
   position: relative;
-  background: rgba(255, 255, 255, .2);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  background: #413D45;
+  /* border: none; */
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, .5); */
 }
 
 
@@ -173,7 +178,7 @@ fieldset {
   }
 #inner{
     display: inline-block;
-    margin: 0 -24px;
+    margin: 0 41px;
     padding: 3px;
 }
 .social-container {
@@ -242,22 +247,22 @@ fieldset {
  {
   font-size:30px;
  } */
- .container
+ /* .container
  {
   width:50%;
   margin-left:25%;
   padding-left:0px;
   padding-right:0px;
- }
- .container input[type="text"]
+ } */
+ input[type="text"]
  {
   width:80%;
  }
- .container textarea
+  textarea
  {
   width:80%;
  }
- .container input[type="submit"]
+ input[type="submit"]
  {
   width:80%;
  }
@@ -272,22 +277,22 @@ fieldset {
  {
   font-size:30px;
  } */
- .container
+ /* .container
  {
   width:60%;
   margin-left:20%;
- }
- .container input[type="text"]
+ } */
+ input[type="text"]
  {
-  width:80%;
+  width:60%;
  }
- .container textarea
+ textarea
  {
-  width:80%;
+  width:60%;
  }
- .container input[type="submit"]
+ input[type="submit"]
  {
-  width:80%;
+  width:60%;
  }
 }
 @media only screen and (min-width:100px) and (max-width:399px)
@@ -300,23 +305,23 @@ fieldset {
  {
   font-size:25px;
  } */
- .container
+ /* .container
  {
   width:90%;
   margin-left:5%;
   padding-left:0px;
   padding-right:0px;
- }
- .container input[type="text"]
+ } */
+ input[type="text"]
  {
-  width:80%;
+  width:30%;
  }
- .container textarea
+ textarea
  {
-  width:80%;
+  width:30%;
  }
- .container input[type="submit"]
+ input[type="submit"]
  {
-  width:80%;
+  width:30%;
  }
 }
