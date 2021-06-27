@@ -204,3 +204,37 @@ img:hover{
    .box:hover::before {
        left: 100%;
    }
+
+
+   @media only screen and (max-width: 390px)
+ {
+     .box{
+         width: 70px;
+     }
+     .card1 h3 {
+        font-size: 20px;
+    }
+    .card2 h3 {
+        font-size: 20px;
+    }
+    .card3 h3 {
+        font-size: 20px;
+    }
+     .card5 h3 {
+         font-size: 20px;
+     }
+
+     .card4 h3 {
+        font-size: 20px;
+    }
+    .card6 h3 {
+        font-size: 20px;
+    }
+
+     .card1 p a{
+         font-size: 11px;
+     }
+     .box {
+        font-size: 11px;
+     }
+ }
