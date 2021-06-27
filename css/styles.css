@@ -59,19 +59,22 @@ img:hover{
 }
 @media (max-width:450px){
     .flex{
-        margin:5% 3%;
-        margin-top: 10%;
+        margin:3%;
+        margin-top: 12% !important;
     }
     .h1{
-        font-size:2.2rem;
+        font-size:2rem;
+    }
+    .h3{
+        font-size:1.5rem;
     }
     .slide .flex{
         margin:15px;
         padding:10px;
     }
     img{
-        width:200px;
-        height:200px;
+        width:180px;
+        height:180px;
     }
 }
 .text{
