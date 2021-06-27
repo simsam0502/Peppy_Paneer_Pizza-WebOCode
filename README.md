@@ -17,3 +17,6 @@
 3. [Undraw](https://undraw.co)
 4. [Animate.css](https://animate.style/)
 5. [FontAwesome](https://fontawesome.com/)
+
+## Steps to run the website locally
+
